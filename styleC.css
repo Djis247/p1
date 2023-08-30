@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap');
+body {
+    --delay-num: 1600ms;
+    padding: 0;
+    margin: 0;
+    /*background: rgb(2,0,36);*/
+    /*background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,105,1) 35%, rgba(0,212,255,1) 100%);*/
+    background: rgb(28,124,84);
+    background: linear-gradient(137deg, rgba(28,124,84,1) 10%, rgba(115,226,167,1) 55%, rgba(222,244,198,1) 100%);
+}
+.container {
+    display: block;
+    height: 99vh;
+    width: 99vw;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.container > div {
+    position: absolute;
+    display: inline-block;
+    font-family: Merienda, sans-serif;
+    color: #fff;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 40px;
+    border: 2px #fff solid;
+    text-shadow: 2px 2px 5px black;
+    animation: infiniteLoop infinite 20s linear;
+}
+
+.container > div.boxA { animation-delay: 0ms;}
+.container > div.boxB { animation-delay: var(--delay-num);}
+.container > div.boxC { animation-delay: calc(var(--delay-num) * 2);}
+.container > div.boxD { animation-delay: calc(var(--delay-num) * 3);}
+.container > div.boxE { animation-delay: calc(var(--delay-num) * 4);}
+.container > div.boxF { animation-delay: calc(var(--delay-num) * 5);}
+
+@keyframes infiniteLoop {
+    0% {
+        left: 0;
+        top: 0;
+        transform: translate(0, 0);
+    }
+    12.5% {
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, 0);
+    }
+    25% {
+        left: 50%;
+        top: 100%;
+        transform: translate(-50%, -100%);
+    }
+    37.5% {
+        left: 100%;
+        top: 100%;
+        transform: translate(-100%, -100%);
+    }
+    50% {
+        left: 100%;
+        top: 0;
+        transform: translate(-100%, 0);
+    }
+    62.5% {
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, 0);
+    }
+    75% {
+        left: 50%;
+        top: 100%;
+        transform: translate(-50%, -100%);
+    }
+    87.5% {
+        left: 0;
+        top: 100%;
+        transform: translate(0, -100%);
+    }
+    100% {
+        left: 0;
+        top: 0;
+        transform: translate(0, 0);
+    }
+}
