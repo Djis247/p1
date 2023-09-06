@@ -33,7 +33,7 @@ distances will stay equally the same*/
     font-size: 40px;
     justify-content: center;
     display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Tahoma;
     border-top: 1px solid black; 
 }
 
@@ -46,7 +46,7 @@ distances will stay equally the same*/
   font-size: 40px;
   justify-content: center;
   display: flex; 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:Tahoma;
   border-top: 1px solid black; 
 }
 
@@ -60,7 +60,7 @@ distances will stay equally the same*/
   font-size: 40px;
   justify-content: center;
   display: flex;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:Tahoma;
   border-top: 1px solid black; 
 }
 
@@ -74,7 +74,7 @@ distances will stay equally the same*/
   font-size: 40px;
   justify-content: center;
   display: flex;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:Tahoma;
   border-top: 1px solid black; 
 }
 
@@ -88,7 +88,7 @@ distances will stay equally the same*/
   font-size: 40px;
   justify-content: center;
   display: flex;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:Tahoma;
   border-top: 1px solid black; 
 }
 
@@ -106,7 +106,7 @@ distances will stay equally the same*/
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Tahoma;
 }
 
 
