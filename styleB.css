@@ -1,0 +1,138 @@
+/*this is where our the css for each individual 
+box lives
+
+note: that the margin is auto that makes sure each individual div 
+is equally seperated but can adjust with page size 
+so the distance between them can change but all of the 
+distances will stay equally the same*/
+
+
+.boxA{
+  width: 90px; 
+  height: 140px; 
+  background-color: #eeeff2;
+  margin: 10px;
+  position: absolute;
+  font-size: 40px;
+  border-left-style: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  font-family: Tahoma;
+  padding-left: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.boxA:hover{
+  background-color: yellow;
+  color: goldenrod;
+}
+
+.boxB{
+  width: 90px; 
+  height: 140px; 
+  background-color: #eeeff2;
+  margin: 10px;
+  position: absolute;
+  left:130px;
+  font-size: 40px;
+  border-left-style: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  font-family: Tahoma;
+  padding-left: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.boxB:hover{
+  background-color: yellow;
+  color: goldenrod;
+}
+
+
+.boxC{
+  width: 90px; 
+  height: 140px; 
+  background-color: #eeeff2; 
+  margin: 10px;
+  position: absolute;
+  left:250px;
+  font-size: 40px;
+  border-left-style: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  font-family: Tahoma;
+  padding-left: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.boxC:hover{
+  background-color: yellow;
+  color: goldenrod;
+}
+
+
+.boxD{
+  width: 90px; 
+  height: 140px; 
+  background-color: #eeeff2;
+  margin: 10px;
+  position: absolute;
+  left:370px;
+  font-size: 40px;
+  border-left-style: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  font-family: Tahoma;
+  padding-left: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.boxD:hover{
+  background-color: yellow;
+  color: goldenrod;
+}
+
+
+.boxE{
+  width: 90px; 
+  height: 140px;  
+  background-color: #eeeff2;
+  margin: 10px;
+  position: absolute;
+  left:490px;
+  font-size: 40px;
+  border-left-style: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  font-family: Tahoma;
+  padding-left: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.boxE:hover{
+  background-color: yellow;
+  color: goldenrod;
+}
+
+
+.boxF{
+  width: 90px; 
+  height: 140px;  
+  background-color: #eeeff2;
+  margin: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 40px;
+  border-left-style: dotted;
+  border-width: 10px;
+  border-color: #D0D0FF;
+  font-family: Tahoma;
+  padding-left: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.boxF:hover{
+  background-color: yellow;
+  color: goldenrod;
+}
